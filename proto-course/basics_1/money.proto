@@ -1,0 +1,7 @@
+
+message Money   {
+     // The three-letter currency code defined in ISO 4217.
+    string currency_code = 1;
+    int64 units = 2;
+    int32 nanos = 3;
+}
